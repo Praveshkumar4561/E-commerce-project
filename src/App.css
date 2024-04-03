@@ -1,0 +1,35 @@
+.card{
+  position: relative;
+  left: 30em;
+  top: 4em;
+  margin-bottom: 1em;
+}
+#mainpage{
+ position: absolute;
+ top: 1em;
+}
+#cardpage{
+  position: absolute;
+  left: 18em;
+  top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cart{
+  position: relative;
+  top: 1em;
+}
+#item{
+  font-style: italic;
+  position: absolute;
+  top: 2px;
+  right: 14px;
+  border-radius: 40px;
+  width: 27px;
+  height: 30px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
